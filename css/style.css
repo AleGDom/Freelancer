@@ -1,3 +1,57 @@
-h1{
-    text-align: center;
+:root{
+    --blanco:#ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --fuente-principal:'Krub', sans-serif;
 }
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--fuente-principal);
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    
+    
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navegacion-principal a{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.navegacion-principal a:hover{
+    
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
